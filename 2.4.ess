@@ -1,0 +1,18 @@
+start
+new Name_bank string
+new number_karts string
+new date_1 string
+new date_2 string
+new reki string
+set Name_bank "     VTB"
+set number_karts  "2202 2345 3245 3214"
+set date_1  "06"
+set date_2  "24"
+set reki  "AFANASRV OLEG"
+log string "__________________________________"
+log string "|" >> Name_bank >> "              |"
+log string "|" >> number_karts >> "           |"
+log string "|" >> date_1 >> "/" >> date_2 >>" |"
+log string "|" >> reki >> "                   |"
+log string "|_________________________________|"
+finish
